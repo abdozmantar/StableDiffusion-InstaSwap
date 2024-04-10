@@ -15,7 +15,6 @@ from modules import shared
 from scripts.globals import IS_RUN
 from scripts.helpers import addLoggingLevel
 
-
 class ColoredFormatter(logging.Formatter):
     COLORS = {
         "DEBUG": "\033[0;36m",  # CYAN
@@ -33,7 +32,6 @@ class ColoredFormatter(logging.Formatter):
         seq = self.COLORS.get(levelname, self.COLORS["RESET"])
         colored_record.levelname = f"{seq}{levelname}{self.COLORS['RESET']}"
         return super().format(colored_record)
-
 
 # Create a new logger
 logger = logging.getLogger("InstaSwap")
