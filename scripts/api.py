@@ -21,7 +21,6 @@ import gradio as gr
 from scripts.swapper import EnhancementOptions, swap_face
 from scripts.logger import logger
 
-
 def default_file_path():
     time = datetime.now()
     today = date.today()
@@ -115,7 +114,6 @@ def api(_: gr.Blocks, app: FastAPI):
     async def instaswap_upscalers():
         names = [upscaler.name for upscaler in shared.sd_upscalers]
         return {"upscalers": names}
-
 try:
     import modules.script_callbacks as script_callbacks
 
