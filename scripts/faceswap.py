@@ -21,6 +21,7 @@ from modules.processing import (
     StableDiffusionProcessing,
     StableDiffusionProcessingImg2Img,
 )
+
 from modules.face_restoration import FaceRestoration
 from modules.images import save_image
 
@@ -32,6 +33,7 @@ from scripts.swapper import (
     check_process_halt, 
     reset_messaged,
 )
+
 from scripts.version import version_flag, app_title
 from scripts.console_log_patch import apply_logging_patch
 from scripts.helpers import (
@@ -39,8 +41,8 @@ from scripts.helpers import (
     set_Device, 
     get_SDNEXT
 )
-from scripts.globals import SWAPPER_MODELS_PATH #, DEVICE, DEVICE_LIST
 
+from scripts.globals import SWAPPER_MODELS_PATH #, DEVICE, DEVICE_LIST
 
 class FaceSwapScript(scripts.Script):
     def title(self):
@@ -105,7 +107,6 @@ class FaceSwapScript(scripts.Script):
             imgs,
             random_image,
         ]
-
 
     @property
     def upscaler(self) -> UpscalerData:
