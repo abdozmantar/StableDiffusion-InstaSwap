@@ -17,6 +17,7 @@ try:
 except:
     EP_is_visible = False
 
+
 def update_models_list(selected: str):
     return gr.Dropdown.update(
         value=selected, choices=get_models()
