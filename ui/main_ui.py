@@ -18,7 +18,6 @@ from scripts.swapper import (
 from modules import shared
 
 # SAVE_ORIGINAL: bool = False
-
 def update_fm_list(selected: str):
     return gr.Dropdown.update(
         value=selected, choices=get_model_names(get_facemodels)
@@ -29,6 +28,7 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
 
     # def on_select_source(selected: bool, evt: gr.SelectData):
     def on_select_source(evt: gr.SelectData):
+        
         # global SAVE_ORIGINAL
         if evt.index == 2:
             # if SAVE_ORIGINAL != selected:
