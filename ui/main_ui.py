@@ -40,6 +40,7 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
                 # save_original: gr.Checkbox.update(value=False,visible=False),
                 imgs_hash_clear: gr.Button.update(visible=True)
             }
+            
         if evt.index == 0:
             return {
                 control_col_1: gr.Column.update(visible=True),
@@ -48,6 +49,7 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
                 # save_original: gr.Checkbox.update(value=SAVE_ORIGINAL,visible=show_br),
                 imgs_hash_clear: gr.Button.update(visible=False)
             }
+            
         if evt.index == 1:
             return {
                 control_col_1: gr.Column.update(visible=False),
