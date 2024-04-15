@@ -12,12 +12,13 @@ from collections import Counter
 from PIL import Image
 from math import isqrt, ceil
 from typing import List
+
 import logging
 import hashlib
 import torch
+
 from safetensors.torch import save_file, safe_open
 from insightface.app.common import Face
-
 from modules.images import FilenameGenerator, get_next_sequence_number
 from modules import shared, script_callbacks
 from scripts.globals import DEVICE, BASE_PATH, FACE_MODELS_PATH, IS_SDNEXT
