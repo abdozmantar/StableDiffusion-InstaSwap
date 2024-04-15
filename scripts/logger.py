@@ -10,7 +10,6 @@
 import logging
 import copy
 import sys
-
 from modules import shared
 from scripts.globals import IS_RUN
 from scripts.helpers import addLoggingLevel
