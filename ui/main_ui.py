@@ -28,7 +28,6 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
 
     # def on_select_source(selected: bool, evt: gr.SelectData):
     def on_select_source(evt: gr.SelectData):
-        
         # global SAVE_ORIGINAL
         if evt.index == 2:
             # if SAVE_ORIGINAL != selected:
@@ -60,6 +59,7 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
             }
         
     progressbar_area = gr.Markdown("")
+    
     with gr.Tab("Main"):
         with gr.Column():
             with gr.Row():
