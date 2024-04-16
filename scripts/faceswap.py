@@ -10,9 +10,7 @@
 import os, glob
 import gradio as gr
 from PIL import Image
-
 from typing import List
-
 import modules.scripts as scripts
 from modules.upscaler import Upscaler, UpscalerData
 from modules import scripts, shared, images, scripts_postprocessing, ui_components
