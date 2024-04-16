@@ -72,7 +72,9 @@ def show(hash_check_block: bool = True):
                 label="Console Log Level",
                 type="index"
             )
+            
         gr.Markdown("<br>", visible=hash_check_block)
+        
         with gr.Row(visible=hash_check_block):
             source_hash_check = gr.Checkbox(
                 True,
