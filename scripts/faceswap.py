@@ -22,7 +22,6 @@ from modules.processing import (
 
 from modules.face_restoration import FaceRestoration
 from modules.images import save_image
-
 from ui import ui_main, ui_upscale, ui_tools, ui_settings
 from scripts.logger import logger
 from scripts.swapper import (
