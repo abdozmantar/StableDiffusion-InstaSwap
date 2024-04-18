@@ -2,11 +2,9 @@ from typing import Dict, NamedTuple, Tuple
 
 import numpy as np
 
-
 class Point(NamedTuple):
     x: int
     y: int
-
 
 class Landmarks(NamedTuple):
     eye1: Point
