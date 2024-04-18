@@ -33,7 +33,6 @@ if not os.path.exists(INSTASWAP_MODELS_PATH):
     os.makedirs(INSTASWAP_MODELS_PATH)
     if not os.path.exists(FACE_MODELS_PATH):
         os.makedirs(FACE_MODELS_PATH)
-
 def updateDevice():
     try:
         LAST_DEVICE_PATH = os.path.join(BASE_PATH, "last_device.txt")
