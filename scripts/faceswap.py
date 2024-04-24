@@ -14,6 +14,7 @@ from typing import List
 import modules.scripts as scripts
 from modules.upscaler import Upscaler, UpscalerData
 from modules import scripts, shared, images, scripts_postprocessing, ui_components
+
 from modules.processing import (
     Processed,
     StableDiffusionProcessing,
@@ -24,6 +25,7 @@ from modules.face_restoration import FaceRestoration
 from modules.images import save_image
 from ui import ui_main, ui_upscale, ui_tools, ui_settings
 from scripts.logger import logger
+
 from scripts.swapper import (
     EnhancementOptions, 
     swap_face, 
@@ -33,6 +35,7 @@ from scripts.swapper import (
 
 from scripts.version import version_flag, app_title
 from scripts.console_log_patch import apply_logging_patch
+
 from scripts.helpers import (
     make_grid, 
     set_Device, 
