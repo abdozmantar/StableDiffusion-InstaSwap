@@ -9,7 +9,6 @@
 
 import os
 from pathlib import Path
-
 try:
     from modules.paths_internal import models_path
 except:
@@ -21,7 +20,6 @@ except:
 IS_RUN: bool = False
 BASE_PATH = os.path.join(Path(__file__).parents[1])
 DEVICE_LIST: list = ["CPU", "CUDA"]
-
 MODELS_PATH = models_path
 SWAPPER_MODELS_PATH = os.path.join(MODELS_PATH, "insightface")
 INSTASWAP_MODELS_PATH = os.path.join(MODELS_PATH, "instaswap")
