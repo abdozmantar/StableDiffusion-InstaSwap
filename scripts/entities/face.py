@@ -1,12 +1,9 @@
 import traceback
-
 import cv2
 import numpy as np
 from modules import images
 from PIL import Image
-
 from scripts.entities.rect import Point, Rect
-
 
 class FaceArea:
     def __init__(self, entire_image: np.ndarray, face_area: Rect, face_margin: float, face_size: int, upscaler: str):
