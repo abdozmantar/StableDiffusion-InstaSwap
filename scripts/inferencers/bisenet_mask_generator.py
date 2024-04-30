@@ -1,5 +1,4 @@
 from typing import List, Tuple
-
 import cv2
 import modules.shared as shared
 import numpy as np
