@@ -9,6 +9,7 @@
 
 import gradio as gr
 from scripts.swapper import build_face_model
+
 # TAB TOOLS
 def show():
     with gr.Tab("Tools"):
