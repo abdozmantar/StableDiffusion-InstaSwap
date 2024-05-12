@@ -35,7 +35,6 @@ from scripts.swapper import (
 
 from scripts.version import version_flag, app_title
 from scripts.console_log_patch import apply_logging_patch
-
 from scripts.helpers import (
     make_grid, 
     set_Device, 
