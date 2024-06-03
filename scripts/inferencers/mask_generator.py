@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 from typing import Tuple
-
 import cv2
 import numpy as np
 
