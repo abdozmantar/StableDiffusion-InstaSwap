@@ -9,6 +9,7 @@
 
 import os
 from pathlib import Path
+
 try:
     from modules.paths_internal import models_path
 except:
