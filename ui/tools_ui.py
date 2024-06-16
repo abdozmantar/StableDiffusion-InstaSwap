@@ -6,7 +6,6 @@
 #                                              #
 #         GNU GENERAL PUBLIC LICENSE           #
 #----------------------------------------------#
-
 import gradio as gr
 from scripts.swapper import build_face_model
 
