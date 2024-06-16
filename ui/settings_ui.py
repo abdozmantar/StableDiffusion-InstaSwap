@@ -6,7 +6,6 @@
 #                                              #
 #         GNU GENERAL PUBLIC LICENSE           #
 #----------------------------------------------#
-
 import gradio as gr
 from scripts.logger import logger
 from scripts.helpers import get_models, set_Device
