@@ -12,11 +12,9 @@ from scripts.helpers import (
     get_model_names, 
     get_facemodels
 )
-
 from scripts.swapper import (
     clear_faces_list,
 )
-
 from modules import shared
 # SAVE_ORIGINAL: bool = False
 def update_fm_list(selected: str):
