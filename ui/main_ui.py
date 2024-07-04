@@ -16,6 +16,7 @@ from scripts.helpers import (
 from scripts.swapper import (
     clear_faces_list,
 )
+
 from modules import shared
 # SAVE_ORIGINAL: bool = False
 def update_fm_list(selected: str):
