@@ -22,7 +22,6 @@ def update_fm_list(selected: str):
         value=selected, choices=get_model_names(get_facemodels)
     )
 
-
 # TAB MAIN
 def show(is_img2img: bool, show_br: bool = True, **msgs):
 
