@@ -16,12 +16,10 @@ try:
     EP_is_visible = True if cuda.is_available() else False
 except:
     EP_is_visible = False
-    
 def update_models_list(selected: str):
     return gr.Dropdown.update(
         value=selected, choices=get_models()
     )
-    
 def show(hash_check_block: bool = True):
     # TAB SETTINGS
     with gr.Tab("Settings"):
