@@ -42,15 +42,6 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
                 imgs_hash_clear: gr.Button.update(visible=True)
             }
             
-        if evt.index == 1:
-            return {
-                control_col_1: gr.Column.update(visible=False),
-                control_col_2: gr.Column.update(visible=True),
-                control_col_3: gr.Column.update(visible=False),
-                # save_original: gr.Checkbox.update(value=SAVE_ORIGINAL,visible=show_br),
-                imgs_hash_clear: gr.Button.update(visible=False)
-            }
-            
         if evt.index == 0:
             return {
                 control_col_1: gr.Column.update(visible=True),
@@ -60,7 +51,14 @@ def show(is_img2img: bool, show_br: bool = True, **msgs):
                 imgs_hash_clear: gr.Button.update(visible=False)
             }
             
-        
+        if evt.index == 1:
+            return {
+                control_col_1: gr.Column.update(visible=False),
+                control_col_2: gr.Column.update(visible=True),
+                control_col_3: gr.Column.update(visible=False),
+                # save_original: gr.Checkbox.update(value=SAVE_ORIGINAL,visible=show_br),
+                imgs_hash_clear: gr.Button.update(visible=False)
+            }
         
     progressbar_area = gr.Markdown("")
     
