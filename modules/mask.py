@@ -3,12 +3,10 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 from torchvision.transforms.functional import to_pil_image
-
 from scripts.logger import logger
 from scripts.inferencers.bisenet_mask_generator import BiSeNetMaskGenerator
 from scripts.entities.face import FaceArea
 from scripts.entities.rect import Rect
-
 
 colors = [
     (255, 0, 0),
@@ -29,7 +27,6 @@ def color_generator(colors):
     while True:
         for color in colors:
             yield color
-
 
 def process_face_image(
         face: FaceArea,
