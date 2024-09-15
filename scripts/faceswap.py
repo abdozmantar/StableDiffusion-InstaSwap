@@ -166,10 +166,10 @@ class FaceSwapScript(scripts.Script):
     ):
         self.enable = enable
         if self.enable:
-
             logger.debug("*** Start process")
-
+            
             reset_messaged()
+            
             if check_process_halt():
                 return
             
