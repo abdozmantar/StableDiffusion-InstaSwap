@@ -13,9 +13,9 @@ from datetime import datetime, date
 from fastapi import FastAPI, Body
 
 # from modules.api.models import *
+
 from modules import scripts, shared
 from modules.api import api
-
 import gradio as gr
 from scripts.swapper import EnhancementOptions, swap_face
 from scripts.logger import logger
