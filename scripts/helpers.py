@@ -110,7 +110,6 @@ def get_image_path(image, path, basename, seed=None, prompt=None, extension='png
         file_decoration = shared.opts.samples_filename_pattern or "[seed]-[prompt_spaces]"
 
     file_decoration = namegen.apply(file_decoration) + suffix
-
     add_number = shared.opts.save_images_add_number or file_decoration == ''
 
     if file_decoration != "" and add_number:
