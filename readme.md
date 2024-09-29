@@ -7,8 +7,10 @@
 
   [![Commit activity](https://img.shields.io/github/commit-activity/t/abdozmantar/StableDiffusion-InstaSwap/main?cacheSeconds=0)](https://github.com/abdozmantar/StableDiffusion-InstaSwap/commits/main)
   ![Last commit](https://img.shields.io/github/last-commit/abdozmantar/StableDiffusion-InstaSwap/main?cacheSeconds=0)
+  
   [![Opened issues](https://img.shields.io/github/issues/abdozmantar/StableDiffusion-InstaSwap?color=red)](https://github.com/abdozmantar/StableDiffusion-InstaSwap/issues?cacheSeconds=0)
   [![Closed issues](https://img.shields.io/github/issues-closed/abdozmantar/StableDiffusion-InstaSwap?color=green&cacheSeconds=0)](https://github.com/abdozmantar/comfyui-reactor-node/issues?q=is%3Aissue+is%3Aclosed)
+  
   ![License](https://img.shields.io/github/license/abdozmantar/StableDiffusion-InstaSwap)
 
 # InstaSwap Face Swap Extension for Stable Diffusion
